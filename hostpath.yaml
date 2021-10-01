@@ -13,4 +13,3 @@ spec:
   - name: test-hostpath
     hostPath:
       path: /data
-  nodeName: kube-node1
