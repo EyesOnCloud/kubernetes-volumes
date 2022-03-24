@@ -4,8 +4,8 @@ metadata:
   name: test-pd-hostpth
 spec:
   containers:
-  - image: nginx
-    name: test-container
+  - name: test-container
+    image: nginx
     
     volumeMounts:
         - mountPath: "/usr/share/nginx/html"
