@@ -15,3 +15,4 @@ spec:
   - name: test-hostpath
     hostPath:
       path: /data
+  nodeName: eoc-kubenode1
